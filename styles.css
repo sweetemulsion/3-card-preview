@@ -28,20 +28,13 @@ p {
   margin: 50px auto;
   box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
 }
-/* .card-group {
-  position: absolute;
-  margin: 150px 0 0 300px;
-  width: 60rem;
-  height: 28.9rem;
-  background-color: red;
-} */
+
 .card-1 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   position: relative;
   top: 9.375rem;
-  left: 12rem;
-  /* margin: 150px auto 0 200px; */
+  left: 5rem;
   background-color: #e38826;
   height: 25rem;
   width: 15.625rem;
@@ -59,9 +52,8 @@ p {
 
 .card-2 {
   position: relative;
-  /* justify-content: center; */
   top: -19.375rem;
-  left: 31.3rem;
+  left: 24.3rem;
   background-color: #006970;
   height: 25rem;
   width: 15.625rem;
@@ -81,7 +73,7 @@ p {
   border-bottom-right-radius: 10px;
   position: relative;
   top: -48.125rem;
-  left: 50.6rem;
+  left: 43.6rem;
   background-color: #004241;
   height: 25rem;
   width: 15.625rem;
