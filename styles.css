@@ -22,8 +22,10 @@ p {
 }
 
 .card-container {
+  display: flex;
+  flex-direction: row;
   background-color: #f7f7f7;
-  width: 70%;
+  width: 80rem;
   height: 50rem;
   margin: 50px auto;
   box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
@@ -32,9 +34,8 @@ p {
 .card-1 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  position: relative;
-  top: 9.375rem;
-  left: 5rem;
+  display: inline-block;
+  margin: 150px 0 0 175px;
   background-color: #e38826;
   height: 25rem;
   width: 15.625rem;
@@ -51,9 +52,8 @@ p {
 }
 
 .card-2 {
-  position: relative;
-  top: -19.375rem;
-  left: 24.3rem;
+  display: inline-block;
+  margin: 150px 0 0 0;
   background-color: #006970;
   height: 25rem;
   width: 15.625rem;
@@ -71,9 +71,7 @@ p {
 .card-3 {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  position: relative;
-  top: -48.125rem;
-  left: 43.6rem;
+  margin: 150px 150px 0 0;
   background-color: #004241;
   height: 25rem;
   width: 15.625rem;
@@ -105,11 +103,10 @@ p {
 
 @media screen and (max-width: 400px) {
   .card-container {
-    visibility: hidden;
+    flex-direction: column;
   }
 
   .card-1 {
-    visibility: visible;
     display: inline-block;
     width: 80%;
     height: 80%;
@@ -122,7 +119,6 @@ p {
   }
 
   .card-2 {
-    visibility: visible;
     width: 80%;
     height: 80%;
     top: 0;
@@ -130,7 +126,6 @@ p {
   }
 
   .card-3 {
-    visibility: visible;
     width: 80%;
     height: 80%;
     right: 0;
