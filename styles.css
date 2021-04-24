@@ -24,7 +24,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: fit-content;
   padding: 0 4em;
 }
 
@@ -127,7 +128,7 @@ img {
 @media screen and (max-width: 750px) {
   .card-container {
     flex-direction: column;
-    padding: 0 1em;
+    padding: 1em;
   }
 
   .card-1,
